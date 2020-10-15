@@ -6,6 +6,9 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
+        <item name="colorControlNormal">#264f7d</item>
+        <item name="colorControlActivated">#0dc9b6</item>
+        <item name="colorControlHighlight">#f768a1</item>
     </style>
 
     <!-- Application theme. -->

@@ -50,7 +50,6 @@ public class ComposeActivity extends AppCompatActivity {
                     Toast.makeText(ComposeActivity.this, "Sorry, Tweet cannot be too long!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Toast.makeText(ComposeActivity.this, tweetText, Toast.LENGTH_SHORT).show();
 
                 // Make an API Call to post the twitter
                 client.publishTweet(tweetText, new JsonHttpResponseHandler() {
